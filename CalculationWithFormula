@@ -1,0 +1,27 @@
+package com.company;//package com.company;
+
+public class chw_12_Print_Formula {
+   public static void main(String[] args) {
+       float V = 12.0f;
+       float U =32.0f;
+       float a=34.0f;
+       float s =43.0f;
+       float Formula =( V*V-U*U )/2*a*s;
+       System.out.println(Formula);
+       
+   }
+}
+//import java. util. Scanner;
+//public class chw_12_Print_Formula {
+//    public static void main(String[] args) {
+//        char grade = 'B';
+//        grade = (char) (grade +8);// encrypted
+//
+//// Decryption
+//        Scanner take = new Scanner(System.in);
+//        System.out.print("Value to be subtracted: ");
+//        int code = take.nextInt();
+//        grade  = (char) (grade -code);
+//        System.out.println(grade);
+//    }
+//}
